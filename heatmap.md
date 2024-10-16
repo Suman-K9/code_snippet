@@ -39,3 +39,39 @@ plt.xlabel('Columns')
 plt.ylabel('Rows')
 plt.show()
 ```
+``` python
+import plot ly.graph_objects as go
+import numpy as np
+import pandas as pd
+
+# Example correlation matrix (10 columns, 8 rows)
+data = np.random.uniform(-1, 1, (8, 10))  # Replace with your actual correlation data
+correlation_matrix = pd.DataFrame(data, columns=[f'Col{i+1}' for i in range(10)])
+
+# Define a custom color scale
+colorscale = [
+    [0, 'white'],  # Out of specified range
+    [0.3, 'green'],  # Value between 0.3 and 1
+    [0.5, 'red'],  # Value between -0.5 and -0.3
+    [1, 'grey']  # Value between -0.3 and 0.3
+]
+
+# Create the heatmap
+fig = go.Figure(data=go.Heatmap(
+    z=correlation_matrix.values,
+    x=correlation_matrix.columns,
+    y=correlation_matrix.index,
+    colorscale=colorscale,
+    colorbar=dict(title='Value')
+))
+
+# Update the layout
+fig.update_layout(
+    title='Custom Heatmap',
+    xaxis_title='Columns',
+    yaxis_title='Rows'
+)
+
+# Display the plot
+fig.show()
+```
