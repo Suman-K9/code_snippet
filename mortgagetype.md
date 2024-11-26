@@ -161,3 +161,7 @@ With this detailed structure, you can create an informative and visually appeali
 
 
 A Home Equity Line of Credit (HELOC) is a revolving credit line that allows homeowners to borrow against their home equity for purposes like renovations or debt consolidation. It typically has a variable interest rate, and borrowers only pay interest on the amount drawn. After a draw period of 5-10 years, the borrower enters a repayment phase to pay back the principal and interest.
+
+Green mortgages are specialized loans that incentivize the purchase or improvement of energy-efficient homes. They often offer benefits such as lower interest rates and increased loan amounts for properties that meet specific energy efficiency standards. These mortgages aim to promote sustainable living while providing financial advantages to borrowers.
+
+Smart mortgages for deposit holders offer benefits such as reduced interest rates and flexible payment options for borrowers who maintain a specified level of savings with the lender. These products often include financial management tools and loyalty rewards, encouraging savings while providing tailored mortgage solutions. By leveraging data analytics, lenders can better assess risk and customize offerings based on borrowers' financial behavior.
