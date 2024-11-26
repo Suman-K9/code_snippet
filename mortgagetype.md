@@ -158,3 +158,6 @@ Fonts: Choose clear, legible fonts for headings and body text.
 Visual Hierarchy: Use different font sizes and weights to differentiate between sections and emphasize key points.
 Graphics: Incorporate relevant icons and illustrations to enhance understanding and engagement.
 With this detailed structure, you can create an informative and visually appealing infographic that effectively communicates the various types of mortgages available.
+
+
+A Home Equity Line of Credit (HELOC) is a revolving credit line that allows homeowners to borrow against their home equity for purposes like renovations or debt consolidation. It typically has a variable interest rate, and borrowers only pay interest on the amount drawn. After a draw period of 5-10 years, the borrower enters a repayment phase to pay back the principal and interest.
