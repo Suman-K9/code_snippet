@@ -1,3 +1,4 @@
+``` python
 import pandas as pd
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
@@ -24,4 +25,5 @@ wordcloud = WordCloud(width=800, height=400, background_color='white').generate(
 plt.figure(figsize=(10, 5))
 plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis('off')  # Turn off axis numbers and ticks
+```
 plt.show()
