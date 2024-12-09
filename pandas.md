@@ -32,4 +32,25 @@ st.write("Below is the DataFrame with the percentage column styled:")
 st.dataframe(styled_df)
 
 
+import pandas as pd
+import streamlit as st
+
+# Sample DataFrame
+data = {
+    'Name': ['A', 'B', 'C', 'D', 'E'],
+    'Percentage': [45, 76, 90, 30, 65]
+}
+df = pd.DataFrame(data)
+
+# Apply Heatmap Style using pandas
+styled_df = df.style.background_gradient(cmap='YlOrRd', subset=['Percentage'])
+
+# Streamlit App
+st.title("Percentage Column Heatmap")
+
+st.write("The 'Percentage' column is displayed as a heatmap based on its values:")
+
+# Display styled DataFrame
+st.dataframe(styled_df)
+
 ```
