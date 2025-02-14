@@ -86,3 +86,11 @@ Citations:
 
 ---
 Answer from Perplexity: pplx.ai/share
+
+Cyberattacks Sophisticated cyberattacks can disrupt critical banking functions and services, such as providing credit or processing payments, potentially damaging trust in the banking system13. The number of cyber incidents reported to the ECB nearly doubled from 2022 to 2023, with attacks increasing in sophistication1.
+
+IT and system failures An inability to access documents and systems due to failures can significantly impair a bank's operations. The example of Amsterdam Trade Bank (ATB), which faced denied access to critical documents for credit officers, demonstrates how a lack of robust contingency planning for operational shocks can lead to major issues, even bankruptcy, despite having sufficient capital and liquidity1.
+
+Third-party dependency Banks' increasing reliance on interconnected functions, operations, and third-party providers increases the risk of service incidents3. A concentration risk may arise from relying on a select group of providers3.
+
+Climate-related risks Banks face commercial pressures due to the impact of climate change and must align with the global sustainability agenda3. Banks are taking steps to integrate climate and environmental (C&E) risks into their strategy, governance, and risk management5.
