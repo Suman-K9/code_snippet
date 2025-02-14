@@ -101,3 +101,12 @@ A global bank faces transfer pricing risks if intra-group loans between subsidia
 - **Regulators**: SEC, IASB, OECD, and tax authorities drive compliance.  
 
 Banks like **JPMorgan Chase** or **HSBC** exemplify these risks: complex financial instruments require precise reporting, while their global operations expose them to tax jurisdiction disputes.
+
+
+Fair Value Accounting: Excessive use of fair value accounting may obscure the actual risks of banks2.
+
+Delayed Recognition of Credit Losses: Delaying the recognition of credit losses or impairment charges2.
+
+Special Purpose Entities (SPEs): Inadequate treatment for exposures to special purpose entities2.
+
+Aggressive Tax Loss Planning: Banks trying to maximize the use of their commercial losses for tax purposes, and circumventing loss carry-over rules3.
