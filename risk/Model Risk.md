@@ -64,3 +64,11 @@ Citations:
 
 ---
 Answer from Perplexity: pplx.ai/share
+
+Inaccurate Credit Scoring Models: A bank uses a credit scoring model with flawed data or assumptions, leading to inaccurate credit risk assessments and increased loan defaults25.
+
+Incorrect Valuation Models: A trading desk relies on a faulty model to value complex derivatives, resulting in significant losses when the market moves against the positions58.
+
+Flawed Stress Testing Models: A bank employs a stress testing model that underestimates potential losses during adverse economic scenarios, leading to inadequate capital reserves36.
+
+Misuse of Anti-Money Laundering (AML) Models: An AML model is used inappropriately, generating a high number of false positives, straining resources and potentially missing actual instances of money laundering38.
