@@ -72,3 +72,54 @@ Incorrect Valuation Models: A trading desk relies on a faulty model to value com
 Flawed Stress Testing Models: A bank employs a stress testing model that underestimates potential losses during adverse economic scenarios, leading to inadequate capital reserves36.
 
 Misuse of Anti-Money Laundering (AML) Models: An AML model is used inappropriately, generating a high number of false positives, straining resources and potentially missing actual instances of money laundering38.
+
+**Definition of Model Risk:** Model risk is the potential for adverse consequences arising from decisions based on incorrect or misused model outputs and reports[6][8]. It stems from two primary sources: fundamental errors in the model that produce inaccurate outputs and the incorrect or inappropriate use of a model or misunderstanding of its limitations and assumptions[3][6].
+
+**Key Components of Model Risk:**
+*   **Model Definition:** A model is a quantitative method, system, or approach that applies statistical, economic, financial, or mathematical theories, techniques, and assumptions to process input data into quantitative estimates[3][5][6]. This includes quantitative approaches with qualitative or expert judgment-based inputs, provided the output is quantitative[3][6].
+*   **Sources of Model Risk:** Model risk arises from inaccurate data, incorrect assumptions, inappropriate methodologies, process errors, and misinterpretation or misuse of results[2].
+*   **Model Lifecycle:** Model risk management covers all elements of the model lifecycle, including model identification, development, validation, performance monitoring, adjustments, and governance[3].
+
+**Impact of Model Risk:**
+*   **Financial Loss:** Model risk can lead to financial losses due to poor business and strategic decision-making based on flawed model outputs[3][6].
+*   **Reputational Damage:** Incorrect or misused models can damage a bank's reputation[3][6].
+*   **Poor Decision Making:** Model risk can result in irrational and poor business choices[3].
+*   **Financial Instability:** Inaccurate models can affect financial stability[2].
+
+**Mitigation Strategies:**
+*   **Model Risk Management (MRM) Framework:** Banks should establish a comprehensive MRM framework that includes policies, procedures, and controls for managing model risk[1][2][6].
+*   **Three Lines of Defense:** Implement a three-lines-of-defense approach:
+    *   Model developers and users (first line) manage day-to-day model development and implementation[2].
+    *   Risk management (second line) oversees model risk management and sets minimum standards[2].
+    *   Internal audit (third line) provides independent assessment of the model risk framework[2].
+*   **Effective Challenge:** Employ critical analysis by objective, informed parties to identify model limitations and produce appropriate changes[6].
+*   **Model Validation:** Rigorously validate models to identify errors or inaccuracies[6]. This includes testing the model's components and overall functioning to ensure it performs as intended and is accurate, robust, and stable[6].
+*   **Governance:** Maintain strong governance over the model risk management framework through policies, procedures, resource allocation, and testing mechanisms[2][6].
+*   **Documentation:** Document model development and validation in sufficient detail to allow those unfamiliar with the model to understand its operation, limitations, and key assumptions[6].
+*   **Continuous Monitoring:** MRM is a continuous process that benefits from a holistic approach[7].
+*   **Model adjustments:** Adjustments to model output, restrictions on model use, reliance on other models or approaches, or other compensating controls[6].
+
+**Regulatory Focus on Model Risk:**
+*   **Standardization:** Regulators are intensifying efforts to standardize MRM practices across financial institutions[3].
+*   **Supervisory Expectations:** The Prudential Regulation Authority (PRA) proposes supervisory expectations for firms to meet five model risk management principles covering all elements of the model lifecycle[1].
+*   **Guidance:** Regulatory guidance, such as SR 11-7 from the Federal Reserve, expands upon existing guidance by broadening the scope to include other key aspects of model risk management[3][6].
+*   **Materiality:** Model risk management should be more extensive and rigorous where models and model output have a material impact on business decisions and where model failure would have a particularly harmful impact on a bank’s financial condition[6].
+
+**Examples of Model Risk:**
+1.  **Inaccurate Credit Scoring Models:** A bank uses a credit scoring model with flawed data or assumptions, leading to inaccurate credit risk assessments and increased loan defaults[2][5].
+2.  **Incorrect Valuation Models:** A trading desk relies on a faulty model to value complex derivatives, resulting in significant losses when the market moves against the positions[5][8].
+3.  **Flawed Stress Testing Models:** A bank employs a stress testing model that underestimates potential losses during adverse economic scenarios, leading to inadequate capital reserves[3][6].
+4.  **Misuse of Anti-Money Laundering (AML) Models:** An AML model is used inappropriately, generating a high number of false positives, straining resources and potentially missing actual instances of money laundering[3][8].
+
+Citations:
+[1] https://www.bankofengland.co.uk/prudential-regulation/publication/2022/june/model-risk-management-principles-for-banks
+[2] https://www2.deloitte.com/content/dam/Deloitte/us/Documents/financial-services/us-fsi-model-risk-management.pdf
+[3] https://www.pwc.in/assets/pdfs/model-risk-management-in-banks.pdf
+[4] https://www2.deloitte.com/us/en/pages/financial-services/articles/model-risk-management.html
+[5] https://www.investopedia.com/terms/m/modelrisk.asp
+[6] https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm
+[7] https://rsmus.com/insights/services/risk-fraud-cybersecurity/banking-on-model-risk-management.html
+[8] https://www.managementsolutions.com/sites/default/files/publicaciones/eng/Model-Risk.pdf
+
+---
+Answer from Perplexity: pplx.ai/share
