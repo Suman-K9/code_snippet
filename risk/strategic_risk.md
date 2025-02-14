@@ -65,3 +65,11 @@ Regulators emphasize robust governance frameworks to manage strategic risk:
 
 **Conclusion**  
 Strategic risk in banking demands proactive management through adaptive planning, governance, and regulatory compliance. Learning from past failures (e.g., subprime lending crises) helps institutions balance innovation with stability.
+
+Competitive Risk: Falling behind competitors due to their faster innovation and improvement of offerings4.
+
+Change Risk: Risks associated with introducing any change program, such as digital transformation4.
+
+Regulatory Risk: New regulations that disrupt business, create new responsibilities or demand new technologies4.
+
+Economic Risk: The broader economic landscape affecting the success of a business strategy4.
