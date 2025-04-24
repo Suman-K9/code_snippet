@@ -1,0 +1,43 @@
+import pandas as pd
+
+# Sample DataFrame
+data = {
+    'CustomerID': [1, 2, 3, 4, 5],
+    'Banking': [1, 0, 1, 0, 1],
+    'Brokerage': [1, 1, 0, 0, 1],
+    'Custody': [0, 0, 1, 0, 1],
+    'Discretionary Managed': [0, 0, 0, 0, 1],
+    'Mortgage': [1, 0, 1, 0, 1],
+    'Trust': [0, 0, 0, 0, 1]
+}
+
+df = pd.DataFrame(data)
+
+# Function to create product string
+def get_product_string(row):
+    products = []
+    if row['Banking']:
+        products.append('banking')
+    if row['Brokerage']:
+        products.append('brokerage')
+    if row['Custody']:
+        products.append('custody')
+    if row['Discretionary Managed']:
+        products.append('discretionary managed')
+    if row['Mortgage']:
+        products.append('mortgage')
+    if row['Trust']:
+        products.append('trust')
+    
+    if not products:
+        return 'none'
+    elif len(products) == 6:
+        return 'all'
+    else:
+        return ' & '.join(products)
+
+# Create the new column
+df['Products'] = df.apply(get_product_string, axis=1)
+
+# Display the updated DataFrame
+print(df[['CustomerID', 'Products']])
