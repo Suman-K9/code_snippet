@@ -1,0 +1,94 @@
+
+
+Absolutely! You can recreate this yield curve trend chart in Python using **matplotlib** and **pandas**. Below, I'll provide you with a step-by-step guide and the code you need.
+
+## Step 1: Prepare the Data
+
+First, let's represent your table data as a pandas DataFrame:
+
+```python
+import pandas as pd
+
+data = {
+    'Tenor': ['FF', '1M', '3M', '6M', '1Y', '2Y', '3Y', '5Y', '7Y', '10Y'],
+    '20-Mar-25': [4.33, 4.37, 4.38, 4.35, 4.35, 4.20, 4.28, 4.27, 4.34, 4.43],
+    '17-Apr-25': [4.33, 4.36, 4.34, 4.22, 3.99, 3.81, 3.82, 3.95, 4.13, 4.34],
+    '19-May-25': [4.33, 4.37, 4.39, 4.32, 3.99, 3.97, 3.95, 4.07, 4.26, 4.46],
+    '17-Jun-25': [4.33, 4.23, 4.24, 4.10, 3.94, 3.90, 3.99, 4.17, 4.17, 4.39]
+}
+df = pd.DataFrame(data)
+df.set_index('Tenor', inplace=True)
+```
+
+## Step 2: Plot the Chart
+
+Now, let's plot the yield curves with different line styles to match your chart.
+
+```python
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(10, 6))
+
+# Plot each date's yield curve
+plt.plot(df.index, df['20-Mar-25'], color='black', label='20-Mar-25', linewidth=2)
+plt.plot(df.index, df['17-Apr-25'], color='orange', label='17-Apr-25', linestyle='dotted', linewidth=2)
+plt.plot(df.index, df['19-May-25'], color='gray', label='19-May-25', linewidth=2)
+plt.plot(df.index, df['17-Jun-25'], color='red', label='17-Jun-25', linewidth=2)
+
+plt.title('Yield curve trend', fontsize=16, fontweight='bold')
+plt.ylabel('Yield (%)')
+plt.xlabel('Tenor')
+plt.ylim(0, 5)
+plt.legend()
+plt.grid(True, linestyle='--', alpha=0.5)
+plt.tight_layout()
+plt.show()
+```
+
+## Step 3: Customization
+
+- **Line Styles:** You can adjust `linestyle` and `color` to match your chart more closely.
+- **Legend & Labels:** Already included.
+- **Grid:** Light grid for better readability.
+
+## Full Code Block
+
+Here’s the complete code:
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+data = {
+    'Tenor': ['FF', '1M', '3M', '6M', '1Y', '2Y', '3Y', '5Y', '7Y', '10Y'],
+    '20-Mar-25': [4.33, 4.37, 4.38, 4.35, 4.35, 4.20, 4.28, 4.27, 4.34, 4.43],
+    '17-Apr-25': [4.33, 4.36, 4.34, 4.22, 3.99, 3.81, 3.82, 3.95, 4.13, 4.34],
+    '19-May-25': [4.33, 4.37, 4.39, 4.32, 3.99, 3.97, 3.95, 4.07, 4.26, 4.46],
+    '17-Jun-25': [4.33, 4.23, 4.24, 4.10, 3.94, 3.90, 3.99, 4.17, 4.17, 4.39]
+}
+df = pd.DataFrame(data)
+df.set_index('Tenor', inplace=True)
+
+plt.figure(figsize=(10, 6))
+plt.plot(df.index, df['20-Mar-25'], color='black', label='20-Mar-25', linewidth=2)
+plt.plot(df.index, df['17-Apr-25'], color='orange', label='17-Apr-25', linestyle='dotted', linewidth=2)
+plt.plot(df.index, df['19-May-25'], color='gray', label='19-May-25', linewidth=2)
+plt.plot(df.index, df['17-Jun-25'], color='red', label='17-Jun-25', linewidth=2)
+
+plt.title('Yield curve trend', fontsize=16, fontweight='bold')
+plt.ylabel('Yield (%)')
+plt.xlabel('Tenor')
+plt.ylim(0, 5)
+plt.legend()
+plt.grid(True, linestyle='--', alpha=0.5)
+plt.tight_layout()
+plt.show()
+```
+
+**Tip:**  
+If you want to export this chart as an image, you can add `plt.savefig('yield_curve_trend.png', dpi=300)` before `plt.show()`.
+
+Let me know if you want further customization or a different style!
+
+Citations:
+[1] selected_image_1621419604161893607.jpg https://pplx-res.cloudinary.com/image/upload/v1752081044/user_uploads/34211299/d9bdd3c9-95e3-4903-abc4-accee59a5b21/selected_image_1621419604161893607.jpg
